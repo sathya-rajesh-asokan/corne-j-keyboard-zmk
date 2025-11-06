@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: Sft+\, s: Sft+|}
+  - {t: \, s: '|'}
   - '&td0'
   - A
   - S
