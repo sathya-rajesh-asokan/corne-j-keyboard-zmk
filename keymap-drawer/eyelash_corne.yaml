@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
   - NUMBER
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -84,7 +84,7 @@ layers:
   - C
   - V
   - RGB EFF
-  - $$mdi:volume-off$$
+  - '&mkp MB2'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
   - RGB SPI
@@ -93,8 +93,8 @@ layers:
   - END
   - PG DN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: Fn, type: held}
-  - {t: QWERTY, h: toggle, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: QWERTY, h: toggle, type: held}
   - INS
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - $$mdi:backspace-reverse-outline$$
@@ -133,7 +133,7 @@ layers:
   - C
   - V
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
   - +
@@ -182,7 +182,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - $$mdi:volume-off$$
+  - '&mkp MB2'
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,10 +191,10 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
-  - {type: held alternate}
   - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
